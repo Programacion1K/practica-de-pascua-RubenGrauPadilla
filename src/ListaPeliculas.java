@@ -15,10 +15,10 @@ public class ListaPeliculas implements Utilizable{
 
     @Override
     public String muestraTodos() {
-        String salida="Lista de películas:\n";
-        for (Pelicula p:lista) {
-            salida+=p.info()+"\n";
-        }
+            String salida="Lista de películas:\n";
+            for (Pelicula p:lista) {
+                salida+=p.info()+"\n";
+            }
 
         return salida;
     }
@@ -66,7 +66,7 @@ public class ListaPeliculas implements Utilizable{
 
 
         salida.setLayout(new BorderLayout());
-        salida.setSize(350, 200);
+        salida.setSize(390, 120);
         salida.setResizable(false);
         salida.setLocationRelativeTo(null);
         salida.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -87,6 +87,7 @@ public class ListaPeliculas implements Utilizable{
         });
         salida.add(anyadirALaLista,BorderLayout.SOUTH);
         salida.setVisible(true);
+
 
     }
 }
