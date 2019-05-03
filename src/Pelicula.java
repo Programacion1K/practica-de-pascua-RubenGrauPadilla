@@ -41,3 +41,4 @@ public class Pelicula {
         return "La pelicula "+this.nombre+", tiene una duración de "+this.duracionHoras+"horas";
     }
 }
+//a

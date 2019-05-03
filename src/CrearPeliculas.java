@@ -26,3 +26,4 @@ public class CrearPeliculas extends JPanel{
         return duracionHorasIntroducida;
     }
 }
+//a
